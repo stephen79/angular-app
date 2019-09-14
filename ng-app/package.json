@@ -10,7 +10,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "gh-pages -d dist"
+    "deploy": "ng deploy --repo=https://github.com/stephen79/angular-app.git --name=stephen79 --base-href=/angular-app/"
   },
   "private": true,
   "dependencies": {
